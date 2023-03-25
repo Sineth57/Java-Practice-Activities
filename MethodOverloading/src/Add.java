@@ -6,6 +6,9 @@ public class Add {
     static double add(double a, double b){
         return a+b;
     }
+    static void mul(){
+        System.out.println("Good");
+    }
 
     static class TestOverloading{
         public static void main(String[] args) {
