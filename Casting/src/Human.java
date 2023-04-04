@@ -20,8 +20,7 @@ class Test{
         Human h = new Man();
         Human h1 = new Man();
 
-        h.printData();
-        h1.printData();
+        
 
     }
 }

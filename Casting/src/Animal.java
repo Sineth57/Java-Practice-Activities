@@ -21,7 +21,7 @@ class Run{
         public static void main(String[] args) {
 
         Animal a = new Fish();
-        a.name = "Alaguduw";
+        a.name = "Alaguduwa";
 
         Fish f = new Fish();
         f.name = "linna";
