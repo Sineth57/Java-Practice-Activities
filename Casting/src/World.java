@@ -29,6 +29,7 @@ class TestCasting{
         Earch e = (Earch) w;
         e.area = 510;
         System.out.println(e.name);
+        System.out.println(e.area);
        
         e.process();
 
