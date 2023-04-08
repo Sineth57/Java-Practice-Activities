@@ -1,0 +1,31 @@
+public class Shape {
+
+    void area(){
+
+    }
+}
+
+class Trangle extends Shape{
+    @Override
+    void area() {
+        System.out.println("Triangle area: 1/2 x base x height");
+    }
+}
+
+class Circle extends Shape{
+    @Override
+    void area() {
+        System.out.println("Circle area: 3.14 x radius x radius");
+
+    }
+}
+
+class Run {
+    public static void main(String[] args) {
+        Shape t = new Trangle();
+        Shape c = new Circle();
+
+        t.area();
+        c.area();
+    }
+}
