@@ -28,3 +28,12 @@ class CommercialCredit extends CommercialBank{
         System.out.println("22");
     }
 }
+    void housingLoanRate(){
+        System.out.println("50%");
+    }
+
+    class Result{
+        public static void main(String[] args) {
+            CentralBank 
+        }
+    }
